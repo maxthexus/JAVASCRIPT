@@ -1,0 +1,59 @@
+Aritimeticos
+
+5 + 2 = 7
+5 - 2 = 3
+5 * 2 = 10
+5 / 2 = 2.5
+5 % 2 = 1  %(resto da divisão)
+5 ** 2 = 25 **(Potencia)
+
+Precedência
+()
+**
+* / %
++-
+
+Atribuição
+
+Auto Atribuição         Simplificação           Incremento
+
+var n = 3                                   var x = 5
+n = n+4                 n +=4               x = x + 1    x++   
+n = n-5                 n -=5               x = x - 1    x--
+n = n*4                 n *=4
+n = n/2                 n /=2
+n = n**2                n **=2
+n = n%5                 n %=5
+
+Relacionais             identidade
+5 > 2 = truel           5 == 5 = true
+7 < 4 = false           5 == `5` = truel (tipo de dados diferente "string")
+8 >= 8 = true           5 === `5` = false (tipo de dados diferente "string")
+9 <= 7 = false          5 === 5 = true
+5 == 5 = true           5 != `5` = false
+4 != 4 = false          5 !== `5` = true 
+
+
+Logicos            Ordem da Execução !>&&>||
+
+! não (negação)             
+&& e (conjunção)
+|| ou (disjunção)
+
+
+Operação            Ordem da Execução Aritimeticos>Relacionais>Logicos
+var a = 5
+var b = 8
+
+a > b && b % 2 == 0
+
+b%2 = 0
+0 == 0 = true
+a > b = false
+false && true = false
+
+
+Ternario (se)
+?:
+
+teste?true:false
