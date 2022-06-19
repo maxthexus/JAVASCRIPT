@@ -25,11 +25,20 @@ footer{
     font-style: italic;
 }
 
+@media only screen and (max-width:1200px) {
+
+    section{
+        font-size: 2em;
+        width: 55%;
+        
+    }
+}
+
 @media only screen and (max-width:950px) {
 
     section{
         font-size: 2em;
-        width: 85%;
+        width: 75%;
         
     }
 
@@ -40,23 +49,20 @@ footer{
     img{
         width: 300px;
     }
+    @media only screen and (max-width:600px) {
 
+        section{
+            font-size: 2em;
+            width: 85%;
+            
+        }
     
-}
-
-@media only screen and (max-width:600px) {
-
-    section{
-        font-size: 1.4em;
-    }
-
-    div{
-        font-size: .8em;
-
-    }
-    img{
-        width: 200px;
-    }
-
+        div{
+            font-size: 1em;
+    
+        }
+        img{
+            width: 300px;
+        }
     
 }

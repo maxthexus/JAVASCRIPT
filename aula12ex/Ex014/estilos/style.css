@@ -23,8 +23,7 @@ section{
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     font-size: 2em;
-    width: 30vw;
-    min-height: 70vh;
+    width: 35%;
     margin:auto ;
     box-shadow: 4px 4px 10px black;
     
@@ -51,11 +50,20 @@ footer{
     padding: 15px;
 }
 
+@media only screen and (max-width:1200px) {
+
+    section{
+        font-size: 2em;
+        width: 55%;
+        
+    }
+}
+
 @media only screen and (max-width:950px) {
 
     section{
         font-size: 2em;
-        width: 85%;
+        width: 75%;
         
     }
 
@@ -66,23 +74,20 @@ footer{
     img{
         width: 300px;
     }
+    @media only screen and (max-width:600px) {
 
+        section{
+            font-size: 2em;
+            width: 85%;
+            
+        }
     
-}
-
-@media only screen and (max-width:600px) {
-
-    section{
-        font-size: 1.4em;
-    }
-
-    div{
-        font-size: .8em;
-
-    }
-    img{
-        width: 200px;
-    }
-
+        div{
+            font-size: 1em;
+    
+        }
+        img{
+            width: 300px;
+        }
     
 }
