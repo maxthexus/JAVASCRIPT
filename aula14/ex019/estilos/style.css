@@ -1,0 +1,60 @@
+@charset 'UTF-8';
+
+body{
+    background-color: #468cec;
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin:auto ;
+    box-shadow: 4px 4px 10px black;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+@media only screen and (max-width:1200px) {
+
+    section{
+    width: 55%;
+
+        
+    }
+}
+
+@media only screen and (max-width:950px) {
+
+    section{
+        width: 75%;        
+    }
+
+
+
+    }
+    img{
+        width: 300px;
+    }
+    @media only screen and (max-width:600px) {
+
+        section{
+
+            width: 85%;
+            
+        }
+        img{
+            width: 300px;
+        }
+    
+}
