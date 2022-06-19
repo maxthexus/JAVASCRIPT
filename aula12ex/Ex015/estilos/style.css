@@ -16,6 +16,7 @@ section{
     padding: 15px;
     width: 500px;
     margin:auto ;
+    box-shadow: 4px 4px 10px black;
 }
 
 footer{
