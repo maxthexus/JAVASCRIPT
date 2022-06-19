@@ -22,9 +22,9 @@ section{
     padding: 15px;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    font-size: 2vw;
+    font-size: 2em;
     width: 30vw;
-    height: 70vh;
+    min-height: 70vh;
     margin:auto ;
     box-shadow: 4px 4px 10px black;
     
@@ -35,12 +35,13 @@ div{
     align-items: center;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
-    font-size:1.5vw;
+    font-size:1em;
     padding: 30px;
     
 }
 
 img{   
+
     width: 15vw;
     height: 15hw;
 }
@@ -50,4 +51,40 @@ footer{
     text-align: center;
     font-style: italic;
     padding: 15px;
+}
+
+@media only screen and (max-width:950px) {
+
+    section{
+        font-size: 2em;
+        width: 85%;
+        
+    }
+
+    div{
+        font-size: 1em;
+
+    }
+    img{
+        width: 400px;
+    }
+
+    
+}
+
+@media only screen and (max-width:600px) {
+
+    section{
+        font-size: 1.4em;
+    }
+
+    div{
+        font-size: .8em;
+
+    }
+    img{
+        width: 200px;
+    }
+
+    
 }
