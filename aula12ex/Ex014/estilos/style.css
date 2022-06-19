@@ -13,6 +13,10 @@ header{
 }
 
 section{
+    display: flex;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     background-color: white;
     border-radius: 10px;
     padding: 15px;
@@ -23,16 +27,20 @@ section{
     height: 70vh;
     margin:auto ;
     box-shadow: 4px 4px 10px black;
+    
 }
 
 div{
+
+    align-items: center;
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     font-size:1.5vw;
     padding: 30px;
+    
 }
 
-img{
+img{   
     width: 15vw;
     height: 15hw;
 }
