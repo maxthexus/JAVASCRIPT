@@ -28,8 +28,8 @@ footer{
 @media only screen and (max-width:1200px) {
 
     section{
-        font-size: 2em;
-        width: 55%;
+    width: 55%;
+
         
     }
 }
@@ -37,13 +37,10 @@ footer{
 @media only screen and (max-width:950px) {
 
     section{
-        font-size: 2em;
-        width: 75%;
-        
+        width: 75%;        
     }
 
-    div{
-        font-size: 1em;
+
 
     }
     img{
@@ -52,14 +49,9 @@ footer{
     @media only screen and (max-width:600px) {
 
         section{
-            font-size: 2em;
+
             width: 85%;
             
-        }
-    
-        div{
-            font-size: 1em;
-    
         }
         img{
             width: 300px;
