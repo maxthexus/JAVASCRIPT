@@ -22,4 +22,6 @@
 [Exercício 15](https://maxthexus.github.io/JAVASCRIPT/aula12ex/Ex015).
 [Exercício 16](https://maxthexus.github.io/JAVASCRIPT/aula13/ex016.js).
 [Exercício 17](https://maxthexus.github.io/JAVASCRIPT/aula14/ex017.js).
+[Exercício 18](https://maxthexus.github.io/JAVASCRIPT/aula14ex/ex018/).
+[Exercício 19](https://maxthexus.github.io/JAVASCRIPT/aula14ex/ex019/).
 
